@@ -73,7 +73,7 @@ const problemText="Langevin";
 @everywhere const Id=[1.0 0.0; 0.0 1.0];
 #
 
-function testLangevin()
+function testEstimatorRates()
 
     ### GENERATING ONE UNDERLYING PATH u and measurement series y
     rng = MersenneTwister(43231242);
